@@ -64,11 +64,7 @@ const TodoInsert = ({ onInsertTodo, source }) => {
             </div>
             <button onClick={ handleSubmit }>Add Todo</button>
             <p>
-                { source?.tags[0]?.source?.title }<br />
-                <span>{ source?.tags[0]?.source?.description }</span>
-                Photo by
-                <a href={ source?.user?.portfolio_url } target='_blank'>{ source?.user?.username }</a>
-                randomly picked from <a href='https://unsplash.com/' target='_blank'>Unsplash</a>
+                <a href='https://github.com/121Mbp' target='_blank'>Github</a>
             </p>
         </div>
     )

@@ -36,7 +36,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: fit-content;
-    max-width: 500px;
+    width: 468px;
     margin: 0 auto;
     background-color: $white-color;
     border-radius: 10px;
@@ -50,6 +50,27 @@ body {
         inset: 0;
         min-height: 100vh;
         border-radius: 0;
+    }
+    .links {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 2em;
+        color: $white-color;
+        text-shadow: 0 0 4px rgba(0, 0, 0, .4);
+        span {
+            display: block;
+            margin-bottom: 8px;
+            opacity: .5;
+        }
+        a {
+            padding: 0 4px;
+            color: inherit;
+            opacity: 0.6;
+            text-decoration: none;
+            padding-bottom: 2px;
+            border-bottom: 1px solid white;
+        }
     }
     .header {
         display: flex;
@@ -90,20 +111,14 @@ body {
                 & + p {
                     display: block;
                     margin-top: 26px;
-                    opacity: .8;
-                    font-size: 14px;
-                    span {
-                        display: block;
-                        margin-bottom: 8px;
-                        opacity: .5;
-                    }
+                    font-size: 12px;
                     a {
-                        padding: 0 4px;
+                        padding: 0 2px;
                         color: inherit;
                         opacity: 0.6;
                         text-decoration: none;
                         padding-bottom: 2px;
-                        border-bottom: 1px solid white;
+                        border-bottom: 1px solid #222;
                     }
                 }
             }
