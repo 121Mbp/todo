@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import made from './../logo.svg'
 import ClearIcon from '@mui/icons-material/Clear'
 
 const TodoInsert = ({ onInsertTodo, source }) => {
@@ -64,6 +65,7 @@ const TodoInsert = ({ onInsertTodo, source }) => {
             </div>
             <button onClick={ handleSubmit }>Add Todo</button>
             <p>
+                <img src={ made } className='made' alt='logo' />
                 <a href='https://github.com/121Mbp' target='_blank'>Github</a>
             </p>
         </div>

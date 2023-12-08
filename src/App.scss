@@ -110,8 +110,16 @@ body {
                 cursor: pointer;
                 & + p {
                     display: block;
-                    margin-top: 26px;
+                    margin-top: 16px;
                     font-size: 12px;
+                    .made {
+                        display: inline-block;
+                        width: 2rem;
+                        height: 2rem;
+                        margin-left: -1rem;
+                        vertical-align: middle;
+                        animation: App-logo-spin infinite 20s linear;
+                    }
                     a {
                         padding: 0 2px;
                         color: inherit;
@@ -159,3 +167,7 @@ body {
     }
 }
 
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+}
