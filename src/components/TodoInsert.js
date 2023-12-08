@@ -65,7 +65,7 @@ const TodoInsert = ({ onInsertTodo, source }) => {
             </div>
             <button onClick={ handleSubmit }>Add Todo</button>
             <p>
-                <a href='https://react.dev/'>Based on React</a>
+                <a href='https://react.dev/' target='_blank'>Based on React</a>
                 <a href='https://github.com/121Mbp' target='_blank'>Github</a>
             </p>
         </div>
