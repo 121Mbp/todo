@@ -110,7 +110,7 @@ body {
                 cursor: pointer;
                 & + p {
                     display: block;
-                    margin-top: 16px;
+                    margin-top: 26px;
                     font-size: 12px;
                     .made {
                         display: inline-block;
@@ -121,12 +121,12 @@ body {
                         animation: App-logo-spin infinite 20s linear;
                     }
                     a {
+                        margin-right: 16px;
                         padding: 0 2px;
                         color: inherit;
                         opacity: 0.6;
                         text-decoration: none;
                         padding-bottom: 2px;
-                        border-bottom: 1px solid #222;
                     }
                 }
             }
